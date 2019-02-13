@@ -33,7 +33,7 @@ app.use(logger("dev"));
 
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://PavaniVithala:Abhi2009@ds133875.mlab.com:33875/heroku_r5jp8cd5", { useNewUrlParser: true });
+mongoose.connect("mongodb://Pavani.Vithala:Abhi2009@ds133875.mlab.com:33875/heroku_r5jp8cd5", { useNewUrlParser: true });
 
 // Routes
 require("./routes/apiRoutes")(app);
