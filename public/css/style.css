@@ -1,0 +1,33 @@
+
+.background-image {
+    width: 100%;
+   height: 50px;
+  }
+  .btn-danger{
+      margin:20px;
+   
+  }
+
+  #confirmBox {
+    position: fixed;
+    font-family: tahoma;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    background-color:burlywood;
+    display: none;
+    position: fixed;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px; 
+    margin-left: -250px; 
+}
+
+.confirm-buttons {
+    margin-bottom: 15px;
+}
+#NoteText{
+    width:300px;
+    height:100px;
+}

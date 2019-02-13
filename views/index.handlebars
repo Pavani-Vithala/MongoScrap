@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="/">Mongo Scrapper</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="btn btn-danger SavedArticles" id="Saved">SAVED ARTICLES!</a>
+    </li>
+    <li class="nav-item">
+      <a class="btn btn-danger scrape-new" id="Scrap">SCRAP NEW ARTICLES!</a>
+    </li>
+    <li class="nav-item">
+      <a class="btn btn-danger clear" id="Clear">CLEAR ARTICLES!</a>
+    </li>
+  </ul>
+</nav>
+<div class="background-image">
+  <img src="images/Newyork_Times.JPG " width="100%" height="500" alt="NewYork Times">
+</div>
+
+<div id="confirmBox">
+  <div class="Add-Notes">
+    <span>Article Notes</span>
+  </div>
+  <div class="AddedNotes">
+    <br><br>
+  </div>
+  <form class = "CreateNote" method="POST">
+    <h4>New Note</h4>
+    <input type="text" id="NoteText" name="Notes" value=""><br><br>
+    <input type="submit" id="Submit" value="Submit">
+  </form>
+  <br><br>
+  <div class="confirm-buttons">
+        <a class="btn btn-secondary" id="Close">Close</a>
+    </div>
+</div>
+
+
+<script src="/js/app.js"></script>
+
+{{!--<div id="container">
+  <form id="Login" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <div id="lower">
+      <br><br>
+      <a href="NewUser.html" id="new-user">New User</a>
+      <input type="submit" value="Submit" id="submit">
+    </div>
+  </form>
+</div>--}}
